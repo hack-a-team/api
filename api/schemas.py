@@ -47,7 +47,7 @@ class CargoBase(BaseModel):
     location: str
     latitude: float
     longitude: float
-    type: str
+    kind: str
 
 
 class CargoCreate(CargoBase):

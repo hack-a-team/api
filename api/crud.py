@@ -42,7 +42,7 @@ def create_cargo(db: Session, cargo: schemas.CargoCreate):
         location=cargo.location,
         latitude=cargo.latitude,
         longitude=cargo.longitude,
-        type=cargo.type,
+        kind=cargo.kind,
     )
     db.add(db_cargo)
     db.commit()

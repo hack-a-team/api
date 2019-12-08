@@ -29,4 +29,4 @@ class Cargo(Base):
     location = Column(String)
     latitude = Column(Float)
     longitude = Column(Float)
-    type = Column(String)
+    kind = Column(String)
